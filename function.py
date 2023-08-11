@@ -83,4 +83,13 @@
 # str = input('Please input a string: ')
 # print(my_len(str))
 
-    
+
+def full_name(firstname, middlename, lastname):
+    return firstname + ' ' +  middlename  +     ' ' +         lastname
+
+
+print(full_name('Christina', 'hi', 'Chen'))
+print(full_name('Christ', 'yes', 'Ch'))
+print(full_name('qqq', 'bye', 'Chen'))
+
+# print('eric' + ' ' + 'Gao')
